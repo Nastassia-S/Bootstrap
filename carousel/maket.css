@@ -1,0 +1,62 @@
+.description, .container {
+    margin-left: 146px;
+}
+.description, .container {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.description__title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.description__subtitle {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    margin-bottom: 33px;
+}
+
+.card-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.card-text span {
+    font-weight: bold;
+}
+
+.card-subtext {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+}
+
+.carousel-indicators [data-bs-target] {
+    background: #02897a;
+    width: 16px;
+    height: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.carousel-indicators {
+    top: 330px;
+}
